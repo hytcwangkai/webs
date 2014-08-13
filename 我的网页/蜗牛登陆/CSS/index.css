@@ -1,0 +1,85 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+img{border: 0;}
+a{text-decoration: none;}
+li{display: list-item;text-align: -webkit-match-parent;}
+
+
+#tl_public_header{width: 100%;min-width: 1003px;height: 36px;background: url("Images/head_bg.png") repeat-x top center;font-size: 12px;font-family: simsun,"times new roman",serif;}
+.tl_public_header_in{width: 1003px;height: 36px;margin: 0 auto;}
+.tl_header_left {width: 760px;height: 36px;float: left;}
+.tl_header_logo{width: 92px;height: 36px;float: left;}
+.tl_header_logo a{width: 92px;height: 36px;background: url("Images/logo.png")no-repeat;display: block;}
+.tl_game_list{float: left;height: 15px;margin: 12px 0 0 0;width: 565px;}
+.tl_header_left ul li{float: left;border-right: 1px solid #cbcbcb;font: 400 12px/15px Arial,Helvetica,sans-serif;padding: 0 8px;}
+.tl_header_left ul li h3{font-weight: 400;float: left;display: block;}
+.tl_header_left ul li a{text-align: center;color: #333;text-decoration: none;line-height: 15px;}
+.tl_game_more{width: 97px;height: 22px;float: left;margin: 9px 0 0 5px;}
+.tl_game_more a{width: 97px;height: 22px;background: url("Images/sz.gif")no-repeat;display: block;color: #333;text-decoration: none;text-indent: 15px;line-height: 22px;}
+
+.tl_header_right{height: 36px;float: right;}
+.tl_header_right_in{height: 36px;float: right;}
+.tl_header_right_in dl{height: 22px;margin: 9px 0 0 0;float: right;}
+.tl_header_right_in dl dd{float: left;color: #464646;margin-right: 0;}
+.header_al{text-decoration: none;color: #464646;line-height: 22px;margin-right: 5px;}
+.header_a2{text-decoration: none;color: #f50;line-height: 22px;}
+.header_a3{width: 71px;height: 22px;background: url("Images/sz.gif") 0 -44px no-repeat;display: block;line-height: 22px;text-indent: 5px;color: #464646;text-decoration: none;}
+ 
+
+
+.gid_11{background-image: url("Images/11.jpg");background-position:50% 0;}
+.content{margin: 0 auto;padding-top: 98px;width: 960px;height: 842px;}
+.registerBox{width: 550px;height: 620px;border: 2px solid#ececec;border-top: 0 none;background: #fff;}
+.registered{border-top: 1px solid #f6e190;border-bottom: 1px solid #f6e190;height: 28px;line-height: 28px;text-align: center;color: #727272;background: #fffae2;}
+.tologin{display: inline-block;margin-left: .5em;color: #000;text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
