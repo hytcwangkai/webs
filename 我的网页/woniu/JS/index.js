@@ -1,0 +1,31 @@
+$(function(){
+	$(".tl_game_list_al").hover(function(){
+		$(this).css("color","#f50")
+	},function(){
+		$(this).css("color","")
+	})
+	$(".collection").click(function(){
+
+		var aa=$(this).attr("collecal");
+		$(this).find("#username"+aa).attr("placeholder","");
+		aa=aa-1;
+		if($("*").find("#username"+aa).val()==""){
+			$("*").find("#username"+aa).parent().next().show();
+			$("*").find("#username"+aa).attr("placeholder","此项不能为空");
+			$("*").find("#username"+aa).val();
+		}
+		else{
+			$("*").find("#username"+aa).parent().next().hide();
+		}
+	}); 
+	$("#tl_game_more_btn").hover(function(){
+		$("*").find("#tl_more_game").show();
+	},function(){
+		$("*").find("#tl_more_game").hide();
+	})
+	$("#tl_more_service_btn_pre").hover(function(){
+		$("*").find("#tl_more_service").show();
+	},function(){
+		$("*").find("#tl_more_service").hide();
+	})
+})
