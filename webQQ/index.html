@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="contianer">
-		<div class="panelTop">
+		<div class="panelTop panelTop1 yingc">
 			<div class="header">
 				<h1 id="panelHeader">会话</h1>
 			</div>
@@ -82,8 +82,49 @@
 				</ul>
 			</div>
 		</div>
-		
-		<div class="panelFooter"></div>
+		<div class="panelTop panelTop2">
+			<div class="header">
+				<h1 id="panelHeader">联系人</h1>
+			</div>
+		</div>
+		<div class="panelTop panelTop3">
+			<div class="header">
+				<h1 id="panelHeader">发现</h1>
+			</div>
+		</div>
+		<div class="panelTop panelTop4">
+			<div class="header">
+				<h1 id="panelHeader">设置</h1>
+			</div>
+		</div>
+		<div class="panelFooter">
+			<ul class="panelFooter_nav">
+				<li id="session" class="session selected pclick" jiekou="1">
+					<div class="paicon selectedpaicon1">
+						<div class="icon"></div>
+						<span>会话</span>
+					</div>
+				</li>
+				<li id="contant" class="contant pclick"jiekou="2">
+					<div class="paicon selectedpaicon2">
+						<div class="icon"></div>
+						<span>联系人</span>
+					</div>
+				</li>
+				<li id="plugin" class="plugin pclick"jiekou="3">
+					<div class="paicon selectedpaicon3">
+						<div class="icon"></div>
+						<span>发现</span>
+					</div>
+				</li>
+				<li id="setting" class="setting pclick"jiekou="4">
+					<div class="paicon selectedpaicon4">
+						<div class="icon"></div>
+						<span>设置</span>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 	<div class="ltck">
 		<div class="ltck_header">
@@ -92,7 +133,17 @@
 			</button>
 		</div>
 		<div class="ltck_body"></div>
-		<div class="ltck_footer"></div>
+		<div class="ltck_footer">
+			<div class="chat">
+				<div id="add_face_btn" class="btn_btn.face">
+					<span class="btn_img"></span>
+				</div>
+				<textarea id="chat_textarea" class="input"></textarea>
+				<button id="send_chat_btn" class="btn_small">
+					<span class="btn_text">发送</span>
+				</button>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

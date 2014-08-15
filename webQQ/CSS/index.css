@@ -3,32 +3,47 @@ ul li {list-style: none;}
 img{border: none;}
 body{background: url("Images/6.jpg");position: relative;}
 .contianer{position: absolute;left: 200px;top: 100px;}
-.panelTop{width: 280px;height: 425px;background-color: #3F3F3F;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+.panelTop{width: 280px;height: 425px;background-color: #3F3F3F;border-top-left-radius: 10px;border-top-right-radius: 10px;display: none;}
+.panelTophuihua{width: 280px;height: 425px;background-color: #3F3F3F;border-top-left-radius: 10px;border-top-right-radius: 10px;display: none;}
+.panelToplianxi{width: 280px;height: 425px;background-color: #3F3F3F;border-top-left-radius: 10px;border-top-right-radius: 10px;display: none;}
+.panelTopfaxian{width: 280px;height: 425px;background-color: #3F3F3F;border-top-left-radius: 10px;border-top-right-radius: 10px;display: none;}
+.panelTopshezhi{width: 280px;height: 425px;background-color: #3F3F3F;border-top-left-radius: 10px;border-top-right-radius: 10px;display: none;}
+.yingc{display:block;}
 .panelBody{width: 280px;height: 380px;background-color: #fff;overflow: auto;}
-.panelFooter{width: 280px;height: 45px;background-color: #3f3f3f;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.panelFooter{width: 280px;height: 50px;background-color: #3f3f3f;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
 .header{width: 280px;height: 45px;background-color: #3F3F3F;border-top-left-radius: 10px;border-top-right-radius: 10px;}
 #panelHeader{width: 230px;height: 18px;font-size: 20px;line-height: 20px;padding:12.5px 25px 12.5px 25px;color: #fff;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;text-align: center;}
 .panelBody ul li{width: 263px;height: 60px;background:  linear-gradient(#fff,#f1f1f1);;border-bottom: 1px solid #E3E3E3;}
 .tou{width: 40px;height: 40px;padding: 10px;float: left;cursor: pointer;}
 .panelBody ul li p{width: 200px;height: 25px;float: left;line-height: 25px;padding: 18px 0 18px 0;cursor: pointer;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
-.ltck{width: 480px;height: 470px;position: absolute;top: 100px;left: 500px;}
-.ltck_header{width: 480px;height: 45px;background:#3b3b3b;border-top-left-radius: 10px;border-top-right-radius: 10px;position: relative;}
-.ltck_body{width: 480px;height: 380px;background: #3b3b3b; opacity: 0.6;}
-.ltck_footer{width: 480px;height: 45px;background: #3b3b3b;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.ltck{width: 680px;height: 470px;position: absolute;top: 100px;left: 500px;}
+.ltck_header{width: 680px;height: 50px;background:#3b3b3b;border-top-left-radius: 10px;border-top-right-radius: 10px;position: relative;}
+.ltck_body{width: 680px;height: 380px;background: #3b3b3b; opacity: 0.6;}
+.ltck_footer{width: 680px;height: 50px;background:#484848;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
 #tck_header_rbutton{width: 60px;height: 35px;position: absolute;top:2px;right: 10px; margin:5px;border-radius: 5px;background:#3b3b3b;border: 1px solid #2C2727;border-radius: 5px;cursor: pointer;}
 #tck_header_rbutton span{color: #fff;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
-
-
-
-
-
-
-
-
-
-
-
-
+.panelFooter_nav li{width: 68px;height: 50px;border-left: 1px solid#555555; border-right: 1px solid #222222;float: left;}
+#setting{width: 69px; border-right: 0;border-bottom-right-radius: 10px;}
+#session{width: 69px; border-left: 0;border-bottom-left-radius: 10px;}
+.paicon{margin: 0 0 0 15px; display: inline-block;overflow: hidden;height: 100%;position: relative;text-align: center;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;line-height: 14px;cursor: pointer;}
+.paicon .icon{display: inline-block;width: 34px;height:34px;background-size: 100% 100%; }
+.paicon span{display: block;position: relative;bottom: 2px;width:100%;font-size:12px;color: #cccccc;}
+.selected .paicon span{color: #fff;}
+.selected{background-color: #262626;border-left: 0;}
+.session .paicon .icon{background-image: url("Images/tab_icon1.png");}
+.contant .paicon .icon{background-image: url("Images/tab_icon2.png");}
+.plugin .paicon .icon{background-image: url("Images/tab_icon3.png");}
+.setting .paicon .icon{background-image: url("Images/tab_icon4.png");}
+.selected .selectedpaicon1 .icon{background-image: url("Images/tab_icon11.png");}
+.selected .selectedpaicon2 .icon{background-image: url("Images/tab_icon21.png");}
+.selected .selectedpaicon3 .icon{background-image: url("Images/tab_icon31.png");}
+.selected .selectedpaicon4 .icon{background-image: url("Images/tab_icon41.png");}
+.ltck_footer .chat{padding: 3px 10px 5px 6px;color: #fff;}
+#add_face_btn{border:0;background: 0;width: 38px;display: block;cursor: pointer;position: relative;}
+.btn_img{width: 30px;height: 30px;background: url("Images/chat_face.png");margin: 8px 4px;background-size: 100% 100%;display: block;float: left;}
+#chat_textarea{height: 32px;display: block;border-radius: 5px;padding: 5px 10px;resize:none;margin: 8px 10px 5px 10px;overflow: hidden;color: #333;background: #f9f9f9;width: 550px;float: left;}
+#send_chat_btn{width: 50px;cursor: pointer;margin: 8px 0; padding: 8px 0;display: block;font-size: 14px;vertical-align: middle;border-color: #044062;background: -webkit-linear-gradient(top,#5f9cc5,#396b9e);color: #fff;float: left;border-radius: 5px;}
+.btn_text{display: block;color:#fff;line-height: 100%;text-align: center;text-overflow:ellipsis;overflow: hidden;}
 
 
 
