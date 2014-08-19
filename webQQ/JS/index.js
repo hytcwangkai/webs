@@ -1,8 +1,35 @@
 $(function(){
 	$(document).on("click",".imgFalse",function(){
-		alert("666");
 		var closeId=$(this).attr("parentid");
-		$(".ffrm"+closeId).remove();
+		var kongzhi=$(".chatchoosecontent").html();
+		var nexiId=$("#fffrm"+closeId).next().length;
+		if(nexiId==1){
+			var huanname=$(".ffrm"+closeId).next().attr("friendname");
+			$("#fffrm"+closeId).next().show();
+			$("#fffrm"+closeId).remove();
+			$(".ffrm"+closeId).remove();
+			$(".fName").html(huanname);
+
+			$(".frm"+closeId).attr("isopen","1");
+
+			return false;
+		}
+		else{
+			var huanname=$(".ffrm"+closeId).prev().attr("friendname");
+			$("#fffrm"+closeId).prev().show();
+			$("#fffrm"+closeId).remove();
+			$(".ffrm"+closeId).remove();
+			$(".fName").html(huanname);
+			var kongzhi=$(".chatchoosecontent").html();
+			if(kongzhi=="")
+			{
+				$(".ltckmain").hide();
+				$(".dian2").remove();
+				$(".ltck_body_content").remove();
+				$(".dian").attr("Isopen","1");
+			}
+			return false;
+		}
 	})
 	$(document).on("click","#send_chat_btn",function(){
 		var chatting_content_main="";
