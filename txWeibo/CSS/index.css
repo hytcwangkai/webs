@@ -1,0 +1,63 @@
+*{margin: 0;padding: 0;}
+body{color: #333;background:url("Images/bg.jpg")fixed center top no-repeat;font: 12px/1.75 Tahoma,Arial,sans-serif;height: 100%;}
+.h1{font-size: 100%;font-weight: normal;}
+ul{list-style: none;}
+a{text-decoration: none;}
+i{font-style: italic;}
+
+
+.headWrap a{color: #c9c9c9;}
+.w_head_outer{width: 100%;height: 35px;position: fixed;left: 0;z-index: 299;box-shadow: 0 2px 3px rgba(0,0,0,.12);}
+.headInside{width: 960px;margin: 0 auto;position: relative;z-index: 104;height: 35px;}
+.headInside h1{position: absolute;left: 0;top: 0;}
+.headInside h1 a{display: block;width: 120px;height: 35px;background: url("Images/logo_20131126.png")no-repeat;text-indent: -9999em;overflow: hidden;color: #c9c9c9;}
+.topNav{position: absolute;left: 134px;top: 0;height: 35px;}
+.topNav .topNavItem{float: left;position: relative;margin-right: 1px;}
+.topNav .active{color: #fff;}
+.topNav a{font-size: 14px;display: block;height: 12px;line-height: 10px;overflow: hidden;padding: 11px 0 12px 0;}
+.topNav .topNavItem u{position: relative;z-index: 105;padding: 0 10px;text-decoration: none;}
+.topNav .topNavItem a i{position: absolute;display: block;height: 35px;width: 100%;top: 0;left: 0;}
+.ico_hot_mini{display: inline-block;width: 9px;height: 9px;margin-top: -3px;vertical-align: top;background: url("Images/b2_20131129.png")no-repeat;font-size: smaller;background-position: -202px -176px;}
+.topNav em{margin: 4px 0 0 3px;border-style: solid dashed dashed;border-color: transparent;border-top-color: #c9c9c9;font-size: 0;width: 0;line-height: 0;border-width: 3px 3px 0;display: inline-block;vertical-align: top;}
+.headInside .right{left: auto;right: 165px;}
+.right{float: right;}
+.qk_nav_item{z-index: 105;}
+.qk_nav_item a{position: relative;padding: 0;width: 36px;height: 35px;cursor: pointer;}
+.qk_nav .at .t{background-position: 0 0;}
+.qk_nav_item .t{display: block;position: absolute;top: 7px;left: 8px;z-index: 2;width: 20px;height: 20px;text-indent: -9999px;cursor: pointer;background: url("Images/icons_20130704.png")no-repeat;} 
+.qk_nav .message .t{background-position: -20px 0;}
+.qk_nav .fans .t{background-position: -40px 0;}
+.qk_nav .notice .t{background-position: -60px 0;}
+#topNav1{cursor: pointer;}
+.topNav .accountItem a{font-size: 12px;font-weight: normal;color: #c9c9c9;}
+.topNav .accountItem u{padding: 0 3px 0 5px;position: relative;z-index: 105;text-decoration: none;}
+.topNav .topNavSub{position: absolute;left: 0;top: 35px;min-width: 110px;background-color: #1a1a1a;box-shadow: 0 1px 2px rgba(0,0,0,0.5);opacity:0.8;display: none;cursor: pointer;}
+.topNav .topNavSub li{white-space: nowrap;width: 100%;overflow: hidden;}
+.topNav .topNavSub a{float: none;padding: 8px 9px 9px;font-size: 12px;color: #c9c9c9}
+.tSeearchNew{width: 162px;height: 23px;position: absolute;right: 0;top: 6px;}
+.teSearchNew form{position: relative;width: auto;height: auto;padding-left: 0;background: none;}
+.tSearchNew label{font-family: \5B8B\4F53;cursor: text;color: #666;background: none;margin: 0;position: absolute;left: 7px;top: 0;height: 23px;line-height: 23px;width: 120px;overflow: hidden;}
+.tSearchNew .inputTxtNew{float: left;width: 132px;height: 23px;background-position: -24px 0;background-color: transparent;padding:0;padding-left: 7px;border: 0;border-radius: 2px 0 0 2px;background: url("Images/head_search_20120517.png")no-repeat; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

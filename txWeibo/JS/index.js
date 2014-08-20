@@ -1,3 +1,7 @@
 $(function(){
-	alert("666");
+	$("#topNav1").hover(function(){
+		$(".topnavSub").show();
+	},function(){
+		$(".topnavSub").hide();
+	})
 })
