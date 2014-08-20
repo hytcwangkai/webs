@@ -20,14 +20,16 @@ body{background: url("Images/6.jpg");position: relative;}
 .tou{width: 40px;height: 40px;padding: 10px;float: left;cursor: pointer;}
 .panelBody ul li p{width: 200px;height: 25px;float: left;line-height: 25px;padding: 18px 0 18px 0;cursor: pointer;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 .ffrm{height: 40px;overflow: hidden;margin:5px;}
-.chatchoose ul{overflow:auto;}
+.chatchoose ul{overflow:hidden;width: 163px;}
 .tou1{width: 40px;height: 40px;float: left;cursor: pointer;}
-.dian1{border-bottom-left-radius: 10px;overflow: auto;background: #069dd5;}
-.dian2 p{width: 100px;float: left;color: #fff;font-size: 12px;margin: 13px 0 13px 5px;}
-.dian2{cursor: pointer;margin: 8px 8px 8px 8px;}
+.dian1{border-bottom-left-radius: 10px;overflow:hidden;background: #069dd5;}
+.dian2 p{width: 70px;float: left;color: #fff;font-size: 12px;margin: 13px 0 13px 5px;}
+.dian2{cursor: pointer;margin: 8px 8px 8px 14px;border: 1px solid#069dd5;padding: 5px; border-radius: 5px;}
 .imgFalse{width: 10px; height: 10px; background:url("Images/flase.png");float: left;display: none;}
-.dian1_header{width: 180px;height: 50px;background: #069dd5;}
-
+.dian1_header{width: 163px;height: 50px;background: #069dd5;}
+.ztai2{background: #37b0dd;}
+.ztai{background: #8ed3ec;}
+.chatting_content_main_R{margin-left: 20px;background: #cee9f6;border: 1px solid#c2d6e7;border-radius: 5px;display: inline-block;padding: 10px;}
 
 .ltckmain{width: 860px;height: 470px;position: absolute;left: 400px;top: 100px;display:none;}
 .ltck{width: 680px;height: 470px;float:right;}
