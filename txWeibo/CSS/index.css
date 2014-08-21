@@ -2,8 +2,10 @@
 body{color: #333;background:url("Images/bg.jpg")fixed center top no-repeat;font: 12px/1.75 Tahoma,Arial,sans-serif;height: 100%;}
 .h1{font-size: 100%;font-weight: normal;}
 ul{list-style: none;}
-a{text-decoration: none;}
+a{text-decoration: none; display: inline-block;}
 i{font-style: italic;}
+input{outline: none;resize:none;}
+
 
 
 .headWrap a{color: #c9c9c9;}
@@ -38,6 +40,132 @@ i{font-style: italic;}
 .teSearchNew form{position: relative;width: auto;height: auto;padding-left: 0;background: none;}
 .tSearchNew label{font-family: \5B8B\4F53;cursor: text;color: #666;background: none;margin: 0;position: absolute;left: 7px;top: 0;height: 23px;line-height: 23px;width: 120px;overflow: hidden;}
 .tSearchNew .inputTxtNew{float: left;width: 132px;height: 23px;background-position: -24px 0;background-color: transparent;padding:0;padding-left: 7px;border: 0;border-radius: 2px 0 0 2px;background: url("Images/head_search_20120517.png")no-repeat; }
+.headShadow{height: 35px;position: absolute;top: 0;left: 0;width: 100%;background-image: linear-gradient(to bottom,#2c2c2c,#191919);opacity: 0.88;z-index: 10;}
+
+
+
+
+#topWrap{padding-top: 55px;}
+#mainWrapper{background-color: #fff;background: rgba(255,255,255,.9);position: relative;z-index: 1;width: 960px;min-height: 900px;margin: 0 auto;border-radius: 5px 5px 0 5px;}
+.main{border-right-color: #e5d2b2;float: left;width: 640px; position: relative;width: 640px;z-index: 1;overflow-y:visible;margin-right: -1px;border-right: 1px solid#bbdae3;-webkit-border-radius: 5px 0 0 5px;background: #fff; }
+.side{color: #343434;float: right;padding-bottom: 30px;width: 319px;}
+.talkBox{position: relative;z-index: 12;padding: 0 30px 10px 30px;background: #fff;border-radius: 5px 0 0 0;margin-bottom: 10px;}
+.talkBox h2{height: 30px;overflow: hidden;padding: 10px 5px 0;font: normal 16px/31px "MicroSoft YaHei","SimHei";color: #999;}
+.talkBox h2 .tit_topic{font-size: 12px;float: right;color: #889db6;font-family:Simsun;float: right;}
+.talkBox h2 em{float: left;}
+label{cursor: default;}
+.talkBox .sendCnt{background: #fff;}
+.sendCnt{border: 1px solid#d0d0d0;line-height: 1.231;word-wrap:break-word;word-break:break-all;border-radius: 3px;position: relative;z-index: 104;}
+.sendCnt .a_1{position: absolute;margin: 11px 0 0 0;right: -20px;border-left-color: #d0d0d0;border-width: 0 10px 10px 10px;}
+.sendCnt .a_1 u{border-left-color: #fff;border-width:  8px 8px 8px;margin: 1px 0 0 -10px;}
+.a u{display: inline-block;width: 0;height: 0;line-height: 0;font-size: 0;cursor: pointer;}
+.talkBox .cntBox{position: relative;width: 100%;overflow: hidden;background-color: #fff;border-radius: 3px 3px 0 0;}
+.talkBox .cntBox textarea{overflow-y:hidden;width: 97.9%;height: 69px;padding: 3px;margin: -1px auto 0;font: normal 14px/21px Tahoma,Arial;border: 0;border-radius: 8px 8px 0 0; }
+.talkBox .countTxtBox_v3{position: static;height: 18px;padding-right: 10px;}
+.talkBox .countTxtBox{right: 10px;bottom: 1px;display: block;}
+.talkBox .countTxt{color: #999;float: right;}
+.countTxt em{position: relative;top: -1px;font-family: Tahoma,Arial;font-size: 14px;padding-right: 3px;font-weight: bold;vertical-align: middle;}
+.insertFun{background: #fff;padding: 6px 0 4px;}
+.sendList{position: relative;z-index: 103;float: left;min-width: 45px;margin: 3px 6px 0 0;}
+.insertFace{margin-left: 4px;}
+.insertFun .txt{display: inline-block;position: relative;height: 16px;padding-bottom: 5px;white-space: nowrap;color: #999;}
+.insertFun .ico_face{float: left;margin: 3px 4px 0 0;}
+.sico{width: 16px;height: 16px;float: left;margin: 3px 4px 0 0; background: url("Images/b1_20140716.png")no-repeat;}
+.ico_face{background-position: -120px -33px;}
+.ico_pic{background-position: 0 -33px;}
+.ico_at{background-position: -144px -33px;}
+.ico_feel{background-position: -168px -53px;}
+.ico_baoliao{background-position: -272px -184px;}
+.ico_picVote{background-position: -225px -201px;}
+.smoreFun{margin:1px 0 0 4px;}
+.smoreFun .moreBox{padding-top: 5px;}
+.smoreFun .more{border-left: 1px solid#dedede;padding:0 0 0 9px;float: left;line-height: 14px;}
+.smoreFun .more .a{margin-bottom:  -2px;}
+.insertFun .more{display: inline-block;position: relative;height: 16px;white-space: nowrap;color: #999;}
+.a4{border-width: 4px 5px 4px 4px;}
+.a_t{border-top-style: solid;border-bottom: dashed transparent;border-right: dashed transparent;border-left: dashed transparent;}
+.a{display: inline-block;width: 0;height: 0;line-height: 0;font-size: 0;cursor: pointer;}
+ .sendFun{height: 30px;overflow: hidden;float: right;]}
+.btnHasStr{float: right;color: #999;line-height: 33px;overflow: visible;width: 85px;height: 27px;background-position: 0 0;border:0;text-align: left;text-indent: -9999em;cursor: pointer;background: url("Images/b1_20140716.png")no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
