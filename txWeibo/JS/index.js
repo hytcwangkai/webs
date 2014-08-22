@@ -1,6 +1,11 @@
 $(function(){
 	$(".userpic").mouseover(function(){
-		 var windowTop=$(window).scrollTop();
+		var username=$(this).next().find(".userName").attr("usernames");
+		$(".tx_User").html(username);
+		var imgid=$(this).attr("imgId");
+		var imgS='<img src="CSS/Images/'+imgid+'1.jpg">'
+		$(".avatar").html(imgS);
+		var windowTop=$(window).scrollTop();
 		var userPicTop =$(this).offset().top
 		var userPicTop2=userPicTop-windowTop;
 		$(".uc").show();
@@ -15,24 +20,24 @@ $(function(){
 	$(".uc").mouseleave(function(){
 		$(".uc").hide();
 	})
-	$(".int_like").click(function(){
+	$(".zan").click(function(){
 		var zanguo=$(this).attr("zang");
 		if(zanguo==1){
 			$(this).find(".ico_likeb").css("background-position","-306px -112px");
 			$(this).find(".like_plus").css({"margin-top":"-20px","opacity":"1","display":"block"});
 			$(this).find(".like_plus").animate({"margin-top":"-35px","opacity":"0"},2000);
-			$(this).attr("title","取消赞");
-		 	var zan=$(this).next().find("span").text();
+			$(this).find(".int_like").attr("title","取消赞");
+		 	var zan=$(this).find("span").text();
 		 	zan=parseInt(zan)+1;
-		 	$(this).next().find("span").text(zan);
+		 	$(this).find("span").text(zan);
 		 	$(this).attr("zang","0");
 		}
 		else{
 			$(this).find(".ico_likeb").css("background-position","-290px -112px");
 			$(this).attr("title","赞");
-			var zan=$(this).next().find("span").text();
+			var zan=$(this).find("span").text();
 		 	zan=parseInt(zan)-1;
-		 	$(this).next().find("span").text(zan);
+		 	$(this).find("span").text(zan);
 			$(this).attr("zang","1");
 		}
 	})

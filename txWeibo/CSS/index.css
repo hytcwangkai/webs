@@ -154,6 +154,7 @@ label{cursor: default;}
 .ico_likeb{background: url("Images/b1_20140716.png")no-repeat; ;background-position: -290px -112px;cursor: pointer;vertical-align: -2px;}
 .pubInfo .num_likeb{margin-left: -3px;}
 .pubInfo .funBox span{margin: 0 8px 0 7px;color: #dbdbdb;}
+.zan{float: left;cursor: pointer;}
 .pubInfo .funBox .int_like span{margin: 0;color: inherit;}
 .like_plus{display: none; color: #759aad;position: absolute;margin: 0 0 0 0;margin-top: -35px;font-style: normal;pointer-events:none;}
 .talkWrap{position: relative;z-index: 10;margin: 11px 0 4px;padding: 6px 10 0;border: 1px solid #dee3e3;background-color: #f7f7f7;}
@@ -206,22 +207,35 @@ label{cursor: default;}
 .uc_c1 .info{color: #666;line-height: 18px;height: 36px;overflow: hidden;margin-bottom: 8px;word-wrap:break-word;word-wrap:normal;}
 .uc_c1 .stats{color: #999;}
 .uc .tx_user{font-size: 14px;display: inline-block;vertical-align: top;}
+.ico_level{display: inline-block;height: 16px;overflow: hidden;margin-left: 2px;vertical-align: text-top;background: url("Images/b1_20140716.png")no-repeat;}
 .ico_level{width: 37px;background-position: -54px -126px;}
-.ico_level{display: inline-block;height: 16px;overflow: hidden;margin-left: 2px;vertical-align: text-top;}
+.ico_level em{display: block;width: 8px;height: 7px;overflow: hidden;margin: 6px 0 0 26px;line-height: 20em;background: url("Images/b1_20140716.png")no-repeat;}
+.wbL8 em{background-position: -125px -118px;}
+.uc_c1 .stats .tx_line{color: #f0f0f0;margin: 0 10px;}
+.uc_c2_l{float: left;}
+.uc_c2_r{float: right;}
+.uc_c2_l .gb_foed{padding-top: 3px;}
+.gb_foed{height: 16px;margin: 0;color: #777;line-height: normal;}
+.gb_foed .icon{margin-right: 4px;cursor: default;}
+.icon {display: inline-block;height: 16px;vertical-align: middle;background-image: url("Images/bt_120426.png");}
+.icon_sfo{width: 15px;background-position: -25px 0;}
+.uc .delAttention{text-decoration: none;}
+.gb_foed .t{display: inline-block;height: 16px;vertical-align: middle;width: auto;padding:0;margin: 0;font-size: 12px;line-height: 1.231;border: 0;white-space: nowrap;background: none;}
+.uc .bt_gp_c_sfo{margin-right: 10px;height: 21px;overflow: hidden;}
+.bt_gp1_x1 .bt_gp_c, .bt_gp1_x2 .bt_gp_c {float: left;}
+.bt_gp1 .bt_gp_c {position: relative;}
+.uc .bt_gp_c_sfo .ico_sFo {position: static;}
+.ico_sFo{background: url("Images/b2_20131129.png")no-repeat; z-index: 2;display: inline-block;width: 21px;height: 21px;background-position: -198px -405px;}
+.uc_c2 .bt_gp_c .gb_btn5{z-index: 1;display: block;min-width: 10px;padding-left: 10px;padding-right: 10px;}
+.bt_gp1_x1 .first .gb_btn{margin-left: 0;border-radius: 2px 0 0 2px;}
+.uc .gb_btn5{height: 16px;padding-top: 3px;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+.gb_btn{padding:2px 8px 3px;margin: 0;text-align: center;line-height: normal;white-space: nowrap;border-width: 1px;border-style: solid;background-repeat: repeat-x;cursor: pointer;background-image: url("Image/bt_120426.png");}
+.gb_btn5{border-color: #cfcfcf;background-color: #fff;background-position: 0 -162px;}
+.uc_c3 .info{color: #999;}
+.uc_c3 .info a{color: #4a93c0;}
 
 
 
