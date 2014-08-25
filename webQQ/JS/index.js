@@ -89,7 +89,7 @@ $(function(){
 		choose +='</li>'
 		if(isopen==1){
 			$(".fName").html(html);
-			$(".chatchoosecontent").prepend(choose);
+			$(".chatchoosecontent").append(choose);
 			$(".ltck_body").append(chatting);
 			$(".ltck_body_content").hide();
 			$("#fffrm"+friendid).show();

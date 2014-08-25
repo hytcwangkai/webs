@@ -239,6 +239,135 @@ label{cursor: default;}
 
 
 
+.sc_profile_w{padding: 18px 0 0 0;}
+#uIn{position: relative;}
+.m_profile_h{z-index: 3;}
+.m_profile_h .c1{padding: 0 25px 3px;}
+.m_profile_h .c2{height: 49px;position: relative;z-index: 1;padding-left: 0;background: #e2ccae;}
+.m_profile_h .lcc{padding-top: 2px;position: relative;z-index: 1;}
+.m_profile .lcc{float: left;}
+.m_profile_h .avatar{widows: 80px;height: 80px;border: 0;padding:0;background: none;}
+.m_profile .avatar{display: block;margin-right: 10px;}
+.side a{color: #d48656;}
+.m_profile_h .avatar img{border-radius: 5px;}
+.m_profile .avatar img {display: block;widows: 80px;height: 80px;}
+.m_profile .tit{line-height: 19px;}
+.h3{font-size: 14px;font-weight: bold;}
+.m_profile_h .tit a{vertical-align: top;}
+.m_profile_h .text_user{font-weight: normal;}
+.wbL2 em{background-position: -71px -118px;}
+.m_profile_h .mood_info {padding-top: 2px;line-height: 20px;}
+.m_profile_h .mood_info .null{opacity: 0.6;}
+.m_profile_h .mood_info p{word-break:break-all;}
+.m_profile_h .mood_info .opt{opacity: 0.6;}
+.m_profile_h .mood_info .opt .text_link{margin-right: 14px;}
+.m_profile_h .list{position: relative;z-index: 1;}
+.m_profile_h .list .list_item{position: relative;z-index: 1;text-align: center;}
+.m_profile .list li{float: left;line-height: 16px;}
+.m_profile_h .list .item_prose{min-width: 58px;padding:0 0 0 25px;text-align: left;}
+.m_profile_h .list .line_bor{margin-top: 10px;}
+.m_profile_h .list .item_favorite{min-width: 70px;}
+.m_profile_h .list .item_follow{min-width: 76px;}
+.m_profile_h .list .item_fans{min-width: 80px;}
+.m_profile_h .list .stat{height: 40px;padding-top: 9px;position: relative;z-index: 5;display: inline-block;text-align: left;}
+.m_profile_h .list .text_count{display: block;font-size: 16px;font-weight: 500;font-family: Arial;}
+.m_profile_h .list .text_atr{display: block;}
+.m_profile_h .list .list_item .mo_bg{display: none;}
+.side .foFun{background-color: #d57705;color: #fff;}
+.foFun{margin: 0 auto;background: #89b4ca;height: 15px;padding: 0 4px 1px;line-height: 1.231;}
+.m_profile_h .list .line_bor .foFun{display: block;padding: 0;margin: 0;height: 29px;width: 1px;font-size: 0;line-height: 0;overflow: hidden;opacity: 0.5;}
+
+.pinglunren{color: blue;float: left;cursor: pointer;}
+.huifu{float: left;}
+.biehuiren{float: left;color: blue;cursor: pointer;}
+.pinglunnierong{float: left;}
+.ping{float: right;cursor: pointer;}
+.inputTxt1{height: 25px;line-height: 15px;overflow: hidden;width: 98.7%;}
+.inputBtn1{overflow: hidden;border: 0;text-align: left;text-indent: -9999em;cursor: pointer;background: url("Images/b2_20131129.png")no-repeat; background-position: -124px -192px;}
+.inputBtn1{width: 60px;height: 19px;margin-top: 6px;float: right;margin-left: 15px;color: #999;}
+.pinglundepinglun{width: 500px;min-height:25px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
