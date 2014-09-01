@@ -15,14 +15,14 @@
 *{margin: 0;padding: 0;}
 ul,li{list-style: none;}
 img{border: 0;}
-.main{background: url("Images/bg.jpg");} 
-body{font-family: Arial,Helvetica,sans-serif;background:url("Images/top_bg.jpg") repeat-x top left;padding: 0;margin: 0 auto;font-size: 12px;}
+.main{background:url("Images/top_bg.jpg") repeat-x top left;} 
+body{font-family: Arial,Helvetica,sans-serif;background-image: url("Images/bg.jpg");background-repeat: repeat;padding: 0;margin: 0 auto;font-size: 12px;}
 .main1{position: relative;}
 .colorsbit{top:200px;left:0px;height: 193px;width: 45px;position: absolute;}
-.tabbox{top :-550px;right: 120px;width: 722px;height: 458px;z-index: 999999;background: url("Images/colors_tab.png")no-repeat center;position: absolute;}
+.tabbox{top :-550px;right: 120px;width: 722px;height: 458px;z-index: 999999;background-image: url("Images/colors_tab.png");background-repeat:no-repeat; background-position:  center;position: absolute;}
 .theme_colors{font-size: 32px;float: left;padding: 35px 0 0 35px;color: #975156;}
 .tabboxclose{width: 22px;height: 22px;float: right;margin: 30px 30px 0 0;cursor: pointer;}
-#tabnav{padding: 0 0 10px 20px;margin: 0;list-style: none;float: left;}
+#tabnav{padding: 0 0 10px 20px;margin: 0;list-style: none;float: left;width: 722px;height: 322px;}
 .theme_colors_info{border-bottom: 1px #ddd dotted;border-top: 1px #ddd dotted;padding: 8px 0 8px 0;margin: 0 0 0 40px;width: 640px;clear: both;float: left;color: #cc420f;font-style: italic;text-align: center;display: block;}
 #tabnav li{padding: 0;float: left;width: 197px;height: 127px;margin: 14px;}
 #tabnav li a{width: 197px;height: 127px;float: left;border: 3px #fff solid;}
@@ -30,17 +30,23 @@ body{font-family: Arial,Helvetica,sans-serif;background:url("Images/top_bg.jpg")
 
 
 
-#maincontainer{width: 960px;margin: 0 auto;padding: 0 0 100px 0;height: auto;}
+#maincontainer{width: 960px;margin: 0 194.5px;padding: 0 0 100px 0;height: auto;}
 /*菜单*/
 #header{width: 960px;height: 42px;position: relative;}
-#menu{width: 800px;float: left;padding: 13px 0 0 10px;text-transform: capitalize;}
+#menu{width: 800px;float: left;padding: 13px 0 0 10px;text-transform: capitalize;height: 23px;}
 #menu ul{margin: 0;padding: 0;list-style: none;}
 .loginbit{top: 12px;right: 10px;background: url("Images/guests_icon.png")no-repeat right; padding: 0 35px 0 0;height: 15px;line-height: 15px;display: block;color: #fff;text-decoration: none;font-size: 12px;font-weight: bold;position: absolute;}
 #menu ul li{ margin: 0 17px 0 0px;display: block;float: left;position: relative;}
 #menu ul li a{color: #fff; text-decoration: none;font-size: 12px;font-weight: bold;height: 23px;background: url("Images/menu_bullet.png") no-repeat right;display: block;padding: 0 35px 0 0;font-family: Arial, Helvetica, sans-serif;}
 #menu ul li a:hover{color:#aed8ff;}
+.selected{width: 68px;height:23px;}
+.menuLi1{width: 100px;height: 23px;}
+.menuLi2{width: 110px;height: 23px;}
+.menuLi3{width: 60px;height: 23px;}
+.menuLi4{width: 107px;height: 23px;}
+.menuLi5{width: 79px;height: 23px;}
 #menu ul li.selected a{color: #aed8ff;}
-#menu ul li ul{z-index: 9999; background: #28667b;border: 0px solid #245751;-webkit-border-radius: 5px;margin: 0 0 0 0 ;padding: 12px 15px 12px 15px;width: 150px;position: absolute;top: 23px;left: -10px;overflow: auto;box-shadow: 0 0 4px #245751;display: none;}
+#menu ul li ul{z-index: 9999; background: #28667b;border: 0px solid #245751;-webkit-border-radius: 5px;margin: 0 0 0 0 ;padding: 12px 15px 12px 15px;width: 140px;position: absolute;top: 23px;left: -10px;overflow: auto;box-shadow: 0 0 4px #245751;display: none;}
 #menu ul li ul a{color: #fff;font-weight: normal;font-size: 12px;padding: 0;background: none;}
 #menu ul li ul li{border-bottom:1px #4a8e85 dotted;display: block;height: 35px;float: none;padding: 0 0 0 6px;line-height: 35px;text-align: left;margin: 0;}
 #menu ul li ul a:hover{color:#aed8ff;}
@@ -52,15 +58,15 @@ body{font-family: Arial,Helvetica,sans-serif;background:url("Images/top_bg.jpg")
 .cufon{display: inline-block;position: relative;line-height: 1px!important;}
 .description{font-size: 18px;color: #14d8cd;display: inline;text-align: center;text-indent: 0;}
 .description a{color: #146d8c;text-decoration: none;}
-.book{width: 960px;height: 398px;background: url("Images/open_book.png")no-repeat center;}
+.book{width: 960px;height: 398px;background-image: url("Images/open_book.png");background-repeat: no-repeat;background-position:  center;}
 .welcome_text{width: 310px;float: left;padding: 95px 0 0 30px;}
 .title{font-size: 28px;color: #9e4b19;padding: 0 0 15px 0;clear: both;}
 .cufon2{font-size: 12px;}
 .welcome_text p{margin: 0;color: #917147;font-size: 12px;line-height: 20px;}
 .welcome_text p a{color:rgb(158,75,25);text-decoration: none;}
 .book_read_more{background: url("Images/book_more.gif")no-repeat left;padding: 0 0 0 12px;font-size: 20px;color: #704d20;height: 34px;display: block;float: right;text-decoration: none;}
-.coin-slider{position: relative; overflow: hidden;zoom:1;width: 506px;height: 342px;background: url("Images/photo_frame.png")no-repeat center top;padding: 18px 0 0 54px;float: right;}
-#coin-slider{width: 462px;height: 288px;background-image:url("Images/coin_pic1.jpg");background-position: 0% 0%;position: relative;}
+.coin-slider{position: relative; overflow: hidden;zoom:1;width: 506px;height: 342px;background-image: url("Images/photo_frame.png");background-repeat:  no-repeat ;background-position:center top;padding: 18px 0 0 50px;float: right;}
+#coin-slider{width: 462px;height: 288px;background-image:url("Images/coin_pic1.jpg");background-position:center; ;position: relative;}
 #cs-buttons-coin-slider{left: 47%;margin-left: -42.5px;}
 
 #cs-title-coin-slider{position: absolute;bottom: 0px;left: 0px;z-index: 1000;opacity: 0;}
