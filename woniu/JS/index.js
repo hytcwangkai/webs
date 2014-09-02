@@ -20,6 +20,11 @@ $(function(){
 	}); 
 	$("#tl_game_more_btn").hover(function(){
 		$("*").find("#tl_more_game").show();
+		$("#tl_more_game").hover(function(){
+			$(this).show();
+		},function(){
+			$(this).hide();
+		})
 	},function(){
 		$("*").find("#tl_more_game").hide();
 	})

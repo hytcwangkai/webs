@@ -35,7 +35,7 @@ body{font-family: Arial,Helvetica,sans-serif;background-image: url("Images/bg.jp
 #header{width: 960px;height: 42px;position: relative;}
 #menu{width: 800px;float: left;padding: 13px 0 0 10px;text-transform: capitalize;height: 23px;}
 #menu ul{margin: 0;padding: 0;list-style: none;}
-.loginbit{top: 12px;right: 10px;background: url("Images/guests_icon.png")no-repeat right; padding: 0 35px 0 0;height: 15px;line-height: 15px;display: block;color: #fff;text-decoration: none;font-size: 12px;font-weight: bold;position: absolute;}
+.loginbit{top: 12px;right: 10px;background-image: url("Images/guests_icon.png");background-repeat:  no-repeat;background-position: right; padding: 0 35px 0 0;height: 15px;line-height: 15px;display: block;color: #fff;text-decoration: none;font-size: 12px;font-weight: bold;position: absolute;}
 #menu ul li{ margin: 0 17px 0 0px;display: block;float: left;position: relative;}
 #menu ul li a{color: #fff; text-decoration: none;font-size: 12px;font-weight: bold;height: 23px;background: url("Images/menu_bullet.png") no-repeat right;display: block;padding: 0 35px 0 0;font-family: Arial, Helvetica, sans-serif;}
 #menu ul li a:hover{color:#aed8ff;}
@@ -71,8 +71,8 @@ body{font-family: Arial,Helvetica,sans-serif;background-image: url("Images/bg.jp
 
 #cs-title-coin-slider{position: absolute;bottom: 0px;left: 0px;z-index: 1000;opacity: 0;}
 #cs-navigation-coin-slider{display: none;}
-.cs-prev{top:129px;left: 0px;z-index: 1001;line-height: 30px;opacity: 0.7;line-height: 30px;position: absolute;padding: 0 10px 0 10px;}
-.cs-next{top:129px;right: 0px;z-index: 1001;line-height: 30px;opacity: 0.7;line-height: 30px;position: absolute;padding: 0 10px 0 10px;}
+.cs-prev{top:129px;left: 0px;z-index: 1001;line-height: 30px;opacity: 0.7;line-height: 30px;position: absolute;padding: 0 10px 0 10px;cursor: pointer;}
+.cs-next{top:129px;right: 0px;z-index: 1001;line-height: 30px;opacity: 0.7;line-height: 30px;position: absolute;padding: 0 10px 0 10px;cursor: pointer;}
 .coin-slider a{text-decoration: none;outline: none;border: none;font-family:  Arial, Helvetica, sans-serif;font-size: 12px;color: #fff;font-weight: bold;background-color: #111;}
 
 
@@ -107,8 +107,8 @@ a.post_readmore{float: right;margin: 0 0 3px 0;background: url("Images/bullet_he
 
 
 #footer{width:100%;height: auto;background: url("Images/footer_bg.jpg") repeat-x top #3a7e76;clear: both;padding: 0 0 0 0;color: #fff}
-.footer_content{width: 960px;margin:0 auto;background: url("Images/footer_content.gif")no-repeat center top;}
-.footer_bage{width: 232px;height: 40px;background: url("Images/footer_badge.png") no-repeat center;text-align: center;margin: auto;position: relative;top:-20px;font-size: 24px;color: #ffffff;padding: 14px 0 0 0;}
+.footer_content{width: 960px;margin:0 194.5px;background: url("Images/footer_content.gif")no-repeat center top;}
+.footer_bage{width: 232px;height: 40px;background: url("Images/footer_badge.png") no-repeat center;text-align: center;margin: 0 364px;position: relative;top:-20px;font-size: 24px;color: #ffffff;padding: 14px 0 0 0;}
 h2.footer_title{font-size: 26px;color: #fff;padding: 0 0 10px 0;clear: both;}
 .lastest_tweets{background: url("Images/footer_twitter_icon.png") no-repeat right bottom;float: left;}
 .lastest_tweets a{color: #a7cfdf;text-decoration: none;font-family: italic;}
