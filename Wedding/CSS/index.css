@@ -30,7 +30,7 @@ body{font-family: Arial,Helvetica,sans-serif;background-image: url("Images/bg.jp
 
 
 
-#maincontainer{width: 960px;margin: 0 194.5px;padding: 0 0 100px 0;height: auto;}
+#maincontainer{width: 960px;margin: 0 auto;padding: 0 0 100px 0;height: auto;}
 /*菜单*/
 #header{width: 960px;height: 42px;position: relative;}
 #menu{width: 800px;float: left;padding: 13px 0 0 10px;text-transform: capitalize;height: 23px;}
@@ -107,8 +107,8 @@ a.post_readmore{float: right;margin: 0 0 3px 0;background: url("Images/bullet_he
 
 
 #footer{width:100%;height: auto;background: url("Images/footer_bg.jpg") repeat-x top #3a7e76;clear: both;padding: 0 0 0 0;color: #fff}
-.footer_content{width: 960px;margin:0 194.5px;background: url("Images/footer_content.gif")no-repeat center top;}
-.footer_bage{width: 232px;height: 40px;background: url("Images/footer_badge.png") no-repeat center;text-align: center;margin: 0 364px;position: relative;top:-20px;font-size: 24px;color: #ffffff;padding: 14px 0 0 0;}
+.footer_content{width: 960px;margin:0 auto;background: url("Images/footer_content.gif")no-repeat center top;}
+.footer_bage{width: 232px;height: 40px;background: url("Images/footer_badge.png") no-repeat center;text-align: center;margin: 0 auto;position: relative;top:-20px;font-size: 24px;color: #ffffff;padding: 14px 0 0 0;}
 h2.footer_title{font-size: 26px;color: #fff;padding: 0 0 10px 0;clear: both;}
 .lastest_tweets{background: url("Images/footer_twitter_icon.png") no-repeat right bottom;float: left;}
 .lastest_tweets a{color: #a7cfdf;text-decoration: none;font-family: italic;}

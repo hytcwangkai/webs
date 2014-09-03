@@ -30,6 +30,12 @@ $(function(){
 	})
 	$("#tl_more_service_btn_pre").hover(function(){
 		$("*").find("#tl_more_service").show();
+		$("#tl_more_service").hover(function(){
+			$(this).show();
+		},function(){
+			$(this).hide();
+		})
+
 	},function(){
 		$("*").find("#tl_more_service").hide();
 	})

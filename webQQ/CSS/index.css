@@ -59,10 +59,10 @@ body{background: url("Images/6.jpg");position: relative;}
 .selected .selectedpaicon2 .icon{background-image: url("Images/tab_icon21.png");}
 .selected .selectedpaicon3 .icon{background-image: url("Images/tab_icon31.png");}
 .selected .selectedpaicon4 .icon{background-image: url("Images/tab_icon41.png");}
-.ltck_footer .chat{padding: 3px 10px 5px 6px;color: #fff;}
+.ltck_footer .chat{padding: 3px 10px 5px 6px;color: #fff;width: 700px;}
 #add_face_btn{border:0;background: 0;width: 38px;display: block;cursor: pointer;position: relative;}
 .btn_img{width: 30px;height: 30px;background: url("Images/chat_face.png");margin: 8px 4px 8px 4px;background-size: 100% 100%;display: block;float: left;}
-#chat_textarea{height: 32px;display: block;border-radius: 5px;padding: 5px 10px;resize:none;margin: 8px 10px 5px 10px;overflow: hidden;color: #333;background: #f9f9f9;width: 550px;float: left;}
+#chat_textarea{height: 32px;display: block;border-radius: 5px;padding: 4px 10px;resize:none;margin: 0px 10px 5px 0px;overflow: hidden;color: #333;background: #f9f9f9;width: 550px;float: left;}
 #send_chat_btn{width: 50px;cursor: pointer;margin: 8px 0; padding: 8px 0;display: block;font-size: 14px;vertical-align: middle;background:#069dd5;color: #fff;float: left;border-radius: 5px;}
 .btn_text{display: block;color:#fff;line-height: 100%;text-align: center;text-overflow:ellipsis;overflow: hidden;}
 
